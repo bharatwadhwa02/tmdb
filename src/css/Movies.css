@@ -1,0 +1,32 @@
+.single-movie {
+  background-color: white;
+  display: flex;
+  margin: 2rem;
+  text-align: initial;
+  padding: 16px;
+}
+.single-movie img {
+  height: 15rem;
+}
+
+.single-movie-title {
+  padding: 10px;
+  color: black;
+}
+
+.search-page {
+  text-align: center;
+}
+
+.search-page .term {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.search-page .term h6 {
+  color: white;
+}
+
+span {
+  font-weight: 300;
+}

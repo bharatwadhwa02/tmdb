@@ -1,0 +1,167 @@
+h5 {
+  color: white;
+}
+
+.movie {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-intro {
+  width: 80%;
+}
+.movie-backdrop {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0 35%;
+  opacity: 65%;
+}
+.movie-detail {
+  width: 75%;
+  display: flex;
+  position: relative;
+  bottom: 150px;
+}
+.movie-detailLeft {
+  margin-right: 5%;
+}
+.movie-poster {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+.movie-detailRight {
+  color: white;
+}
+
+.movies-genres {
+  position: relative;
+  right: 1rem;
+  margin: 0.25rem 0;
+  display: flex;
+}
+
+.movie-genre {
+  margin-left: 1rem;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+
+.container {
+  display: flex;
+}
+.movie-overview {
+  margin: 5% 0;
+}
+
+.director {
+  margin-right: 10%;
+}
+.writers {
+  margin-left: 10%;
+}
+
+.writers span {
+  margin-right: 0.5rem;
+}
+
+.bottom-part {
+  background-color: white;
+}
+.cast {
+  color: black;
+  margin: 0 10%;
+}
+.cast h3 {
+  text-decoration: underline;
+}
+.cast h4 {
+  color: black;
+}
+.cast h1 {
+  color: black;
+}
+
+.cast-scroller {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-inline: contain;
+}
+
+.cast-element {
+  display: flex;
+}
+.cast-item {
+  margin: 1.5rem;
+  padding: 0.4rem;
+  background: #f1f2f3;
+  border-radius: 1rem;
+
+  inline-size: 100%;
+  width: 10rem;
+}
+.cast-element img {
+  border-radius: 1rem;
+}
+
+.details {
+  color: black;
+  margin: 2% 10%;
+}
+.details h3 {
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.details h4 {
+  color: black;
+  margin-right: 1rem;
+}
+hr {
+  color: #000;
+  border-style: dotted;
+  size: 2px;
+  border: none;
+  margin-bottom: 2px;
+}
+#detail {
+  display: flex;
+  margin-bottom: 5px;
+}
+/* #detail p {
+  position: relative;
+  top: 3px;
+} */
+
+.detail-fill {
+  margin-right: 10px;
+}
+
+.trailer {
+  margin: 0 10%;
+}
+.trailer h3 {
+  color: black;
+  text-decoration: underline;
+}
+
+/* tv */
+.director li::before {
+  content: "• ";
+  color: white; /* or whatever color you prefer */
+}
+
+.trailer-video {
+  margin: 20px;
+}
+
+.seasons {
+  margin: 0 10%;
+}
+
+.seasons h3 {
+  text-decoration: underline;
+}
